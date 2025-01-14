@@ -184,7 +184,7 @@ bot.command('statusprem', (ctx) => {
 bot.command('addprem', (ctx) => {
     const ownerId = ctx.from.id.toString();
     if (ownerId !== OWNER_ID) {
-        return ctx.reply('⚠️Contact @Lord_Kerm for buy bot access!!');
+	        return ctx.reply('⚠️Contact @xtechcorporation1 for buy bot access!!');
     }
 
     const args = ctx.message.text.split(' ');
@@ -205,7 +205,7 @@ bot.command('addprem', (ctx) => {
 bot.command('delprem', (ctx) => {
     const ownerId = ctx.from.id.toString();
     if (ownerId !== OWNER_ID) {
-        return ctx.reply('⚠️Contact @Lord_Kerm for buy bot access!!');
+        return ctx.reply('⚠️Contact @xtechcorporation1 for buy bot access!!');
     }
 
     const args = ctx.message.text.split(' ');
@@ -239,7 +239,7 @@ bot.command('premiumfeature', (ctx) => {
 
     // Cek apakah pengguna adalah premium
     if (!isPremium(userId)) {
-        return ctx.reply('⚠️Contact @Lord_Kerm for buy bot access!!');
+        return ctx.reply('⚠️Contact @xtechcorporation1 for buy bot access!!');
     }
 
     // Logika untuk pengguna premium
@@ -250,7 +250,7 @@ const prosesrespone = (target, ctx) => {
     const photoUrl = 'https://i.ibb.co/qdY2mx8/Manul-Ofc-X.jpg'; // Ganti dengan URL gambar atau gunakan buffer gambar
     const caption = `╭━━━「 ⚡️PROCCES 」━━━⬣
 │ 𝗕𝘂𝗴 𝘀𝗲𝗻𝗱𝗶𝗻𝗴 𝗽𝗹𝘀 𝘄𝗮𝗶𝘁...💋
-│ © 𝐂𝐚𝐫𝐦𝐞𝐧𝐂𝐫𝐚𝐬𝐡💋
+│ © X-BUG💋
 ╰━━━━━━━━━━━━━━━━⬣`;
 
     const keyboard = [
